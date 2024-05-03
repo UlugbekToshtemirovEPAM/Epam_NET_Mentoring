@@ -10,7 +10,7 @@
         void OnSubmitButtonClicked(object sender, EventArgs e)
         {
             var username = UserNameEntry.Text;
-            string greeting = $"Hello, {username}. Current date and time: {DateTime.Now}";
+            string greeting = $"Hello, {username}. Current date: {DateTime.Now}";
             SubmitButton.Text = greeting;
         }
     }
