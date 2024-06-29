@@ -62,8 +62,11 @@
     <Build Include="Address.sql" />
     <Build Include="Employee.sql" />
     <Build Include="Company.sql" />
+    <Build Include="EmployeeInfo.sql" />
+    <Build Include="AddEmployee Procedure.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
+    <None Include="SelectFromEmployeeInfo.PostDeployment2.sql" />
   </ItemGroup>
 </Project>
