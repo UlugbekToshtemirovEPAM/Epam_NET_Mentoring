@@ -79,15 +79,19 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Modul9.Task1", "Modul-9\Mod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul-11", "Modul-11", "{0731B483-88BC-452E-A464-3B431B698ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11.Task1", "Modul-11\Modul11.Task1\Modul11.Task1.csproj", "{9034462D-0CED-4872-9868-BA1A9AB87CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11.Task1", "Modul-11\Modul11.Task1\Modul11.Task1.csproj", "{9034462D-0CED-4872-9868-BA1A9AB87CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11.Task1.BinarySerializationApp", "Modul-11\Modul11.Task1.BinarySerializationApp\Modul11.Task1.BinarySerializationApp.csproj", "{034A6F27-C21F-4916-9497-73AB1A19ECA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11.Task1.BinarySerializationApp", "Modul-11\Modul11.Task1.BinarySerializationApp\Modul11.Task1.BinarySerializationApp.csproj", "{034A6F27-C21F-4916-9497-73AB1A19ECA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11.Task1.XmlSerializationApp", "Modul-11\Modul11.Task1.XmlSerializationApp\Modul11.Task1.XmlSerializationApp.csproj", "{A7F6C6CD-6975-4F13-B090-B5BC6FFA5003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11.Task1.XmlSerializationApp", "Modul-11\Modul11.Task1.XmlSerializationApp\Modul11.Task1.XmlSerializationApp.csproj", "{A7F6C6CD-6975-4F13-B090-B5BC6FFA5003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11.Task1.JsonSerializationApp", "Modul-11\Modul11.Task1.JsonSerializationApp\Modul11.Task1.JsonSerializationApp.csproj", "{CB6660CB-18C3-42BE-B107-638165B47A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11.Task1.JsonSerializationApp", "Modul-11\Modul11.Task1.JsonSerializationApp\Modul11.Task1.JsonSerializationApp.csproj", "{CB6660CB-18C3-42BE-B107-638165B47A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11.Task2", "Modul-11\Modul11.Task2\Modul11.Task2.csproj", "{82661250-CA36-47FA-804E-0EF235A0E268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11.Task2", "Modul-11\Modul11.Task2\Modul11.Task2.csproj", "{82661250-CA36-47FA-804E-0EF235A0E268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul-12", "Modul-12", "{BD2B8C1F-E2B8-4862-A7DD-465BB005C9EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul12.Task", "Modul-12\Modul12.Task\Modul12.Task.csproj", "{C04B1B9E-A793-4747-AF0B-16B0D6D50203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +227,10 @@ Global
 		{82661250-CA36-47FA-804E-0EF235A0E268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82661250-CA36-47FA-804E-0EF235A0E268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82661250-CA36-47FA-804E-0EF235A0E268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04B1B9E-A793-4747-AF0B-16B0D6D50203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04B1B9E-A793-4747-AF0B-16B0D6D50203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04B1B9E-A793-4747-AF0B-16B0D6D50203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04B1B9E-A793-4747-AF0B-16B0D6D50203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +270,7 @@ Global
 		{A7F6C6CD-6975-4F13-B090-B5BC6FFA5003} = {0731B483-88BC-452E-A464-3B431B698ED2}
 		{CB6660CB-18C3-42BE-B107-638165B47A47} = {0731B483-88BC-452E-A464-3B431B698ED2}
 		{82661250-CA36-47FA-804E-0EF235A0E268} = {0731B483-88BC-452E-A464-3B431B698ED2}
+		{C04B1B9E-A793-4747-AF0B-16B0D6D50203} = {BD2B8C1F-E2B8-4862-A7DD-465BB005C9EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3538DF8-2A65-4845-9D80-87C2FC8ED1E9}
