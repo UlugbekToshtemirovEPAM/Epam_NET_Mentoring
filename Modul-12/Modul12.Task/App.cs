@@ -11,7 +11,7 @@
             _repository = repository;
         }
 
-        public void SearchDocument(string documentType, string documentNumber)
+      /*  public void SearchDocument(string documentType, string documentNumber)
         {
             IDocument document;
             if (!_cache.Has(documentNumber))
@@ -23,6 +23,6 @@
             {
                 document = _cache.Retrieve(documentNumber);
             }
-        }
+        }*/
     }
 }

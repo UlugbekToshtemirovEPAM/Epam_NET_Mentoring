@@ -17,9 +17,9 @@ namespace Modul12.Task
             }
         }
 
-        public string LoadDocumentData(string fileName)
+       /* public string LoadDocumentData(string fileName)
         {
             File.ReadAllText($@"{Path}\{fileName}{FileExtension}");
-        }
+        }*/
     }
 }
